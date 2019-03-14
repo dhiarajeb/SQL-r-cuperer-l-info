@@ -1,0 +1,15 @@
+#L'ensemble des données de la table :
+
+  SELECT * FROM `movie`
+
+#Uniquement les noms des films :
+
+  SELECT name FROM `movie`
+
+#L'ID et le poster des films :
+
+  SELECT id, poster FROM `movie`
+  
+#Le poster et le commentaire, mais en renommant la colonne "comment" en "avis_spectateur" :
+
+  SELECT poster, comment as avis_spectateur FROM `movie`
